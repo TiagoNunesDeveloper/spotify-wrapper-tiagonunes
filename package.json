@@ -10,7 +10,7 @@
     "build:umd": "./node_modules/.bin/webpack --output-filename spotify-wrapper.umd.js",
     "build:umd:min": "./node_modules/.bin/webpack --output-filename spotify-wrapper.umd.min.js -p",
     "build:all": "npm run build && npm run build:umd && npm run build:umd:min",
-    "lint": "./node_modules/.bin/eslint src/*.js",
+    "lint": "./node_modules/.bin/eslint src/*.js ",
     "prepush": "npm run lint",
     "test": "./node_modules/.bin/mocha tests/**/*.spec.js --require babel-register",
     "test:tdd": "./node_modules/.bin/mocha tests/**/*.spec.js --require babel-register --watch",
@@ -60,5 +60,8 @@
     "sinon-chai": "^2.9.0",
     "sinon-stub-promise": "^4.0.0",
     "webpack": "^2.4.1"
+  },
+  "dependencies": {
+    "chai": "^3.5.0"
   }
 }
