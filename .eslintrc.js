@@ -1,9 +1,4 @@
 module.exports = {
-    "extends": "airbnb",
-    "plugins": [
-        "react",
-        "jsx-a11y",
-        "import",
-        "chai"
-    ]
+  "extends": "airbnb",
+  "plugins": ["react", "jsx-a11y", "import", "chai", "describe"]
 };
