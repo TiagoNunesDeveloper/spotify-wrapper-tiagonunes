@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Spotify Wrapper Test</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<div data-js="albums"></div>
+
+<body>
+
+  <script src="../dist/tiagonunes-spotify-wrapper.umd.js"></script>
+
+  <script>
+    const albums = tiagonunesSpotifyWrapper.searchAlbums('Amy Winehouse')
+    const $albumsEl = document.querySelector('[data-js="albums"]')
+
+    albums
+      .then(data => {
+        markup = data.albums.items.map(item =>
+          `<img src='${ item.images.length === 0
+              ? 'http://www.ccta.ufpb.br/intrum/contents/categorias/cordofones/udecra/sem-imagem.jpg'
+              : item.images[0].url}' alt='${item.name}' />`
+        ).join('')
+
+        $albumsEl.innerHTML = markup
+      })
+
+  </script>
+</body>
+
+</html>
