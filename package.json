@@ -2,7 +2,7 @@
   "name": "tiagonunes-spotify-wrapper",
   "version": "1.0.1",
   "description": "A wrapper to work with the Spotify Web API.",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "clear": "rimraf lib",
     "build": "npm run clear && ./node_modules/.bin/babel --out-dir lib src",
@@ -34,6 +34,10 @@
     "js",
     "tdd",
     "library"
+  ],
+  "files": [
+    "dist",
+    "lib"
   ],
   "author": "Tiago Nunes <tiagonunes.developer@gmail.com> ()",
   "license": "MIT",
