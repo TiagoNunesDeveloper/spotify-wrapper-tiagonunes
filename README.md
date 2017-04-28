@@ -1,7 +1,6 @@
 # (Tiago Nunes) Spotify Wrapper
 
 [![Build Status](https://travis-ci.org/TiagoNunesDeveloper/spotify-wrapper-tiagonunes.svg?branch=master)](https://travis-ci.org/TiagoNunesDeveloper/spotify-wrapper-tiagonunes)
-
 [![Coverage Status](https://coveralls.io/repos/github/TiagoNunesDeveloper/spotify-wrapper-tiagonunes/badge.svg?branch=master)](https://coveralls.io/github/TiagoNunesDeveloper/spotify-wrapper-tiagonunes?branch=master)
 
 A wrapper to work with the [Spotify Web API](https://developer.spotify.com/web-api/).
@@ -21,7 +20,7 @@ This library depends on [fetch](https://fetch.spec.whatwg.org/) to make requests
 ## Installation
 
 ```sh
-$ npm install
+$ npm i tiagonunes-spotify-wrapper
 ```
 
 ## How to use
@@ -30,16 +29,16 @@ $ npm install
 
 ```js
 // to import a specific method
-import { method } from 'spotify-wrapper';
+import { method } from 'tiagonunes-spotify-wrapper';
 
 // to import everything
-import * as spotifyWrapper from 'spotify-wrapper';
+import * as spotifyWrapper from 'tiagonunes-spotify-wrapper';
 ```
 
 ### CommonJS
 
 ```js
-var spotifyWrapper = require('spotify-wrapper');
+var spotifyWrapper = require('tiagonunes-spotify-wrapper');
 ```
 
 ### UMD in Browser
