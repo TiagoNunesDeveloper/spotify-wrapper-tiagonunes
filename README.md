@@ -20,7 +20,7 @@ This library depends on [fetch](https://fetch.spec.whatwg.org/) to make requests
 ## Installation
 
 ```sh
-$ npm i tiagonunes-spotify-wrapper
+$ npm i tiagonunes-spotify-wrapper --save
 ```
 
 ## How to use
