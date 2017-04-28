@@ -1,6 +1,7 @@
 # (Tiago Nunes) Spotify Wrapper
 
 [![Build Status](https://travis-ci.org/TiagoNunesDeveloper/spotify-wrapper-tiagonunes.svg?branch=master)](https://travis-ci.org/TiagoNunesDeveloper/spotify-wrapper-tiagonunes)
+[![Coverage Status](https://coveralls.io/repos/github/TiagoNunesDeveloper/spotify-wrapper-tiagonunes/badge.svg?branch=master)](https://coveralls.io/github/TiagoNunesDeveloper/spotify-wrapper-tiagonunes?branch=master)
 
 A wrapper to work with the [Spotify Web API](https://developer.spotify.com/web-api/).
 
